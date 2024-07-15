@@ -1,0 +1,34 @@
+/* login.css and register.css*/
+.login-register-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-register-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.edit-add-body {
+  background-color: #f8f9fa;
+}
+
+.edit-add-container {
+  max-width: 600px;
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,4 @@
+# Redirect all requests to login.php
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/spice_export_company/admin/?$
+RewriteRule ^$ login.php [L]
